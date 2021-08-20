@@ -52,9 +52,9 @@ print(df_aqi_2021.head())
 print(df_aqi_2021.tail())
 
 # air quality index data for 2020, 2019, and 2018.
-df_aqi_2020 = pd.read_csv("/Users/Vinny/Desktop/MA_FINAL_PROJECT/daily_aqi_by_county_2020.csv")
-df_aqi_2019 = pd.read_csv("/Users/Vinny/Desktop/MA_FINAL_PROJECT/daily_aqi_by_county_2019.csv")
-df_aqi_2018 = pd.read_csv("/Users/Vinny/Desktop/MA_FINAL_PROJECT/daily_aqi_by_county_2018.csv")
+df_aqi_2020 = pd.read_csv("daily_aqi_by_county_2020.csv")
+df_aqi_2019 = pd.read_csv("daily_aqi_by_county_2019.csv")
+df_aqi_2018 = pd.read_csv("daily_aqi_by_county_2018.csv")
 
 # looking at the columns and entries
 print(df_aqi_2020.head())
@@ -62,7 +62,7 @@ print(df_aqi_2019.head())
 print(df_aqi_2018.head())
 
 # importing the running data
-df_running = pd.read_csv("/Users/Vinny/Desktop/MA_FINAL_PROJECT/Activities.csv")
+df_running = pd.read_csv("Activities.csv")
 # looking at the running dat aheads
 print(df_running.head())
 
