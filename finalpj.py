@@ -331,8 +331,11 @@ plt.ylabel("Average Cadence")
 # shows the plot
 plt.show()
 
-
-def introduction()
+# This function displays text to the Streamlit
+def introduction():
+    f = open("introduction.txt", "r")
+    st.wrtie(print(f.read()))
+    
 
 
 def mainTest():
