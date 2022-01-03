@@ -4,6 +4,17 @@ import requests
 import json
 from pandas import json_normalize
 
+
+# Writing Introduction
+
+
+
+
+
+
+
+
+
 # function to access and clean the data. Takes 3 parameters: the state, county, and site code
 def get_site_data(state_code, county_code, site_code):
     # the url for the EPA's data is used as the basis for the url link. The API account information is placed after that. It is just missing the location codes
@@ -319,5 +330,16 @@ plt.xlabel("Air Quailty Index")
 plt.ylabel("Average Cadence")
 # shows the plot
 plt.show()
+
+
+def introduction()
+
+
+def mainTest():
+    introduction()
+    
+    
+mainTest()    
+    
 
 
