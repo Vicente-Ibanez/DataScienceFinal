@@ -1,0 +1,4 @@
+This project navigates personal running data collected from 2018 to present. The athlete has asthma and hypothesizes that air quality negatively influences his performance. The air quality data was retrieved from the Environmental Protection Agency's API. The metric used is air quality index (AQI), which is an aggregate measure of pollutants in the atmosphere at the county level.   
+
+Data Generating Process:
+The running data was recorded using a Garmin(c) Forerunner 25 Watch. The device has buttons that can be accidently triggered, leading to fake data points.  
